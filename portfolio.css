@@ -1,0 +1,105 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d0d0d0;
+    color: #00ff00;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #333;
+    background-color: #1d1d1d;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
+}
+
+/* Profile Section */
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.6);
+}
+
+.profile h1 {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.profile p {
+    font-size: 2em;
+    color: #00ff00;
+    text-shadow: 0 0 5px #00ff00;
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 1.5em;
+    color: #00ff00;
+    margin-top: 20px;
+    border-bottom: 1px solid #00ff00;
+    padding-bottom: 5px;
+    text-shadow: 0 0 5px #00ff00;
+}
+
+/* Education Section */
+.education {
+    list-style-type: none;
+    padding: 0;
+}
+
+.education li {
+    font-size: 1em;
+    padding: 5px 0;
+}
+
+/* Skills Section */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.skill-box {
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: #252525;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.4);
+}
+
+.skill-box h3 {
+    color: #00ff00;
+    font-size: 1.1em;
+}
+
+.stars {
+    color: #FFD700;
+    font-size: 1.2em;
+    text-shadow: 0 0 5px #00ff00;
+}
+
+/* Contact Link */
+.contact-link {
+    display: inline-block;
+    margin-top: 20px;
+    c text-decoration: underline;
+    color: #39ff14;olor: #00ff00;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-shadow: 0 0 5px #00ff00;
+}
+
+.contact-link:hover {
+  
+}
